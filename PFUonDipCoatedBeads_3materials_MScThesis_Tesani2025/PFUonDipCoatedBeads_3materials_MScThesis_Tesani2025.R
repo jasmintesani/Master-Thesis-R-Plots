@@ -10,7 +10,7 @@ library(gridExtra)
 
 data <-
   read.csv(
-    'C:\\Users/Filippo/Desktop/October exp/Evo/PFUonDipCoatedBeads_3materials_MScThesis_Tesani2025/PFUonDipCoatedBeads_3materials_MScThesis_Tesani2025.csv'
+    'C:\\Users/jasmi/Desktop/October exp/Evo/PFUonDipCoatedBeads_3materials_MScThesis_Tesani2025/PFUonDipCoatedBeads_3materials_MScThesis_Tesani2025.csv'
   )
 
 # apply log10 to data means
