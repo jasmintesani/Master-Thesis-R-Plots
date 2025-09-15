@@ -18,7 +18,7 @@ split_name <- function(string) {
 
 data <-
   read.csv(
-    'C:\\Users/Filippo/Desktop/October exp/Evo/PFUperBead_Longterm_10dayEvo_FPSVD22ManualCoated_MScThesisTesani2025/PFUperBead_Longterm_10dayEvo_FPSVD22ManualCoated_MScThesisTesani2025.csv'
+    'C:\\Users/jasmi/Desktop/October exp/Evo/PFUperBead_Longterm_10dayEvo_FPSVD22ManualCoated_MScThesisTesani2025/PFUperBead_Longterm_10dayEvo_FPSVD22ManualCoated_MScThesisTesani2025.csv'
   )
 
 # extract controls
@@ -211,7 +211,7 @@ star_data <-
 
 write_xlsx(summary_data,
            path = glue(
-             "C:\\Users/Filippo/Desktop/October exp/Evo",
+             "C:\\Users/jasmi/Desktop/October exp/Evo",
              "/PFUperBead_Longterm_10dayEvo_FPSVD22ManualCoated_MScThesisTesani2025/",
              "PFUperBead_Longterm_10dayEvo_FPSVD22ManualCoated_MScThesisTesani2025.xlsx"
            ),
