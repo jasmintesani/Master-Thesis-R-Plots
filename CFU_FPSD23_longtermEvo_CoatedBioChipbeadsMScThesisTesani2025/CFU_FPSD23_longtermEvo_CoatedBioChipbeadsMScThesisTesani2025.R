@@ -17,7 +17,7 @@ split_name <- function(string) {
 
 data <-
   read.csv(
-    'C:\\Users/Filippo/Desktop/October exp/Evo/CFU_FPSD23_longtermEvo_CoatedBioChipbeadsMScThesisTesani2025/CFU_FPSD23_longtermEvo_CoatedBioChipbeadsMScThesisTesani2025.csv'
+    'C:\\Users/jasmi/Desktop/October exp/Evo/CFU_FPSD23_longtermEvo_CoatedBioChipbeadsMScThesisTesani2025/CFU_FPSD23_longtermEvo_CoatedBioChipbeadsMScThesisTesani2025.csv'
   )
 
 # extract controls
