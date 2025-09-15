@@ -17,7 +17,7 @@ split_name <- function(string) {
 
 data <-
   read.csv(
-    'C:\\Users/Filippo/Desktop/October exp/Evo/Oxygen/O2consumptionCoatedBeads_21dayExp_FPS-D23.csv'
+    'C:\\Users/jasmi/Desktop/October exp/Evo/Oxygen/O2consumptionCoatedBeads_21dayExp_FPS-D23.csv'
   )
 
 # Extract day and suffix
@@ -186,7 +186,7 @@ star_data <- df_signif %>%
 
 write_xlsx(summary_data,
            path = glue(
-             "C:\\Users/Filippo/Desktop/October exp/Evo",
+             "C:\\Users/jasmi/Desktop/October exp/Evo",
              "/Oxygen/",
              "O2consumptionCoatedBeads_21dayExp_FPS-D23.xlsx"
            ),
