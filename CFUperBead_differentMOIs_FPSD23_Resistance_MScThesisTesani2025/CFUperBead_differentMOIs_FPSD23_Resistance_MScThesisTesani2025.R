@@ -17,7 +17,7 @@ split_name <- function(string) {
 
 data <-
   read.csv(
-    'C:\\Users/Filippo/Desktop/October exp/Evo/CFUperBead_differentMOIs_FPSD23_Resistance_MScThesisTesani2025/CFUperBead_differentMOIs_FPSD23_Resistance_MScThesisTesani2025.csv'
+    'C:\\Users/jasmi/Desktop/October exp/Evo/CFUperBead_differentMOIs_FPSD23_Resistance_MScThesisTesani2025/CFUperBead_differentMOIs_FPSD23_Resistance_MScThesisTesani2025.csv'
   )
 
 # remove weird "cbn" columns
@@ -201,7 +201,7 @@ summary_data_long$day <-
 
 # write_xlsx(summary_data,
 #            path = glue(
-#              "C:\\Users/Filippo/Desktop/October exp/Evo",
+#              "C:\\Users/jasmi/Desktop/October exp/Evo",
 #              "/CFUperBead_differentMOIs_FPSD23_Resistance_MScThesisTesani2025/",
 #              "CFUperBead_differentMOIs_FPSD23_Resistance_MScThesisTesani2025.xlsx"
 #            ),
