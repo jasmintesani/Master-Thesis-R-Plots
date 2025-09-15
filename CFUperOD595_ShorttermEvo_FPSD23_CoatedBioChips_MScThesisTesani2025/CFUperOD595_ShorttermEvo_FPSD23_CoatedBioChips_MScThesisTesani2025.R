@@ -17,7 +17,7 @@ split_name <- function(string) {
 
 data <-
   read.csv(
-    'C:\\Users/Filippo/Desktop/October exp/Evo/CFUperOD595_ShorttermEvo_FPSD23_CoatedBioChips_MScThesisTesani2025/CFUperOD595_ShorttermEvo_FPSD23_CoatedBioChips_MScThesisTesani2025.csv'
+    'C:\\Users/jasmi/Desktop/October exp/Evo/CFUperOD595_ShorttermEvo_FPSD23_CoatedBioChips_MScThesisTesani2025/CFUperOD595_ShorttermEvo_FPSD23_CoatedBioChips_MScThesisTesani2025.csv'
   )
 
 # extract controls
@@ -172,7 +172,7 @@ star_data <- df_signif %>%
 
 write_xlsx(summary_data,
            path = glue(
-             "C:\\Users/Filippo/Desktop/October exp/Evo/",
+             "C:\\Users/jasmi/Desktop/October exp/Evo/",
              "CFUperOD595_ShorttermEvo_FPSD23_CoatedBioChips_MScThesisTesani2025",
              "/means_and_sds.xlsx"
            ),
