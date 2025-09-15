@@ -10,7 +10,7 @@ library(gridExtra)
 
 data <-
   read.csv(
-    'C:\\Users/Filippo/Desktop/October exp/Evo/PFUDipCoatedBeadsGlass1xvs10xbead_MScThesisTesani2025/PFUDipCoatedBeadsGlass1xvs10xbead_MScThesisTesani2025.csv'
+    'C:\\Users/jasmi/Desktop/October exp/Evo/PFUDipCoatedBeadsGlass1xvs10xbead_MScThesisTesani2025/PFUDipCoatedBeadsGlass1xvs10xbead_MScThesisTesani2025.csv'
   )
 
 # define column ids and colors
