@@ -18,7 +18,7 @@ split_name <- function(string) {
 
 data <-
   read.csv(
-    'C:\\Users/Filippo/Desktop/October exp/Evo/Motility_3categories_LongtermEvo_FPSD23_ManuallyCoated_BioChip_MScThesis_Tesani2025/Motility_3categories_LongtermEvo_FPSD23_ManuallyCoated_BioChip_MScThesis_Tesani2025.csv'
+    'C:\\Users/jasmi/Desktop/October exp/Evo/Motility_3categories_LongtermEvo_FPSD23_ManuallyCoated_BioChip_MScThesis_Tesani2025/Motility_3categories_LongtermEvo_FPSD23_ManuallyCoated_BioChip_MScThesis_Tesani2025.csv'
   )
 
 data <- data[, !grepl("ncb", colnames(data), ignore.case = TRUE)]
