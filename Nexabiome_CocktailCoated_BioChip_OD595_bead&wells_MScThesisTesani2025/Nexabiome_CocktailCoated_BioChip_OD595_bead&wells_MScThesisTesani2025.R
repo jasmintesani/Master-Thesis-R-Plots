@@ -17,7 +17,7 @@ split_name <- function(string) {
 
 data <-
   read.csv(
-    'C:\\Users/Filippo/Desktop/October exp/Evo/Nexabiome_CocktailCoated_BioChip_OD595_bead&wells_MScThesisTesani2025/Nexabiome_CocktailCoated_BioChip_OD595_bead&wells_MScThesisTesani2025.csv'
+    'C:\\Users/jasmi/Desktop/October exp/Evo/Nexabiome_CocktailCoated_BioChip_OD595_bead&wells_MScThesisTesani2025/Nexabiome_CocktailCoated_BioChip_OD595_bead&wells_MScThesisTesani2025.csv'
   )
 
 # filter data for the rest of the code
@@ -220,7 +220,7 @@ star_data <-
 
 write_xlsx(summary_data,
            path = glue(
-             "C:\\Users/Filippo/Desktop/October exp/Evo",
+             "C:\\Users/jasmi/Desktop/October exp/Evo",
              "/Nexabiome_CocktailCoated_BioChip_OD595_bead&wells_MScThesisTesani2025",
              "/Nexabiome_CocktailCoated_BioChip_OD595_bead&wells_MScThesisTesani2025.xlsx"
            ),
