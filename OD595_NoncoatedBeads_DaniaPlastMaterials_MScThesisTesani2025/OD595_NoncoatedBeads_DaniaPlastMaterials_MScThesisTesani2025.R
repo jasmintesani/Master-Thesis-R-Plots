@@ -17,7 +17,7 @@ split_name <- function(string) {
 
 data <-
   read.csv(
-    'C:\\Users/Filippo/Desktop/October exp/Evo/OD595_NoncoatedBeads_DaniaPlastMaterials_MScThesisTesani2025/OD595_NoncoatedBeads_DaniaPlastMaterials_MScThesisTesani2025.csv'
+    'C:\\Users/jasmi/Desktop/October exp/Evo/OD595_NoncoatedBeads_DaniaPlastMaterials_MScThesisTesani2025/OD595_NoncoatedBeads_DaniaPlastMaterials_MScThesisTesani2025.csv'
   )
 
 # filter data for the rest of the code
@@ -278,7 +278,7 @@ csv_data <- star_data %>% select(day, col1, col2, p_value, label_ast)
 write.csv(
   csv_data,
   paste0(
-    "C:\\Users/Filippo/Desktop/October exp/Evo",
+    "C:\\Users/jasmi/Desktop/October exp/Evo",
     "/OD595_NoncoatedBeads_DaniaPlastMaterials_MScThesisTesani2025",
     "/significance_table.csv"
   ),
@@ -289,7 +289,7 @@ write.csv(
 
 write_xlsx(summary_data_long,
            path = glue(
-             "C:\\Users/Filippo/Desktop/October exp/Evo/",
+             "C:\\Users/jasmi/Desktop/October exp/Evo/",
              "OD595_NoncoatedBeads_DaniaPlastMaterials_MScThesisTesani2025",
              "/means_and_sds.xlsx"
            ),
