@@ -10,7 +10,7 @@ library(gridExtra)
 
 data <-
   read.csv(
-    'C:\\Users/Filippo/Desktop/October exp/Evo/PFUmLFPSVD22Method1_10vs1_100_MScThesisTesani2025/PFUmLFPSVD22Method1_10vs1_100_MScThesisTesani2025.csv'
+    'C:\\Users/jasmi/Desktop/October exp/Evo/PFUmLFPSVD22Method1_10vs1_100_MScThesisTesani2025/PFUmLFPSVD22Method1_10vs1_100_MScThesisTesani2025.csv'
   )
 
 colors <- c("gray85", "gray60", "gray35")
