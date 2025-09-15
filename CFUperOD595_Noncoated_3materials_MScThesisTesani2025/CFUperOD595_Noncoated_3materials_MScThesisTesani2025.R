@@ -17,7 +17,7 @@ split_name <- function(string) {
 
 data <-
   read.csv(
-    'C:\\Users/Filippo/Desktop/October exp/Evo/CFUperOD595_Noncoated_3materials_MScThesisTesani2025/CFUperOD595_Noncoated_3materials_MScThesisTesani2025.csv'
+    'C:\\Users//Desktop/October exp/Evo/CFUperOD595_Noncoated_3materials_MScThesisTesani2025/CFUperOD595_Noncoated_3materials_MScThesisTesani2025.csv'
   )
 
 # filter data for the rest of the code
