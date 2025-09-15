@@ -17,7 +17,7 @@ split_name <- function(string) {
 
 data <-
   read.csv(
-    'C:\\Users/Filippo/Desktop/October exp/Evo/CFUperBead__differentMOIs_day3_MScThesisTesani2025/CFUperBead__differentMOIs_day3_MScThesisTesani2025.csv'
+    'C:\\Users/jasmi/Desktop/October exp/Evo/CFUperBead__differentMOIs_day3_MScThesisTesani2025/CFUperBead__differentMOIs_day3_MScThesisTesani2025.csv'
   )
 
 # filter data for the rest of the code
@@ -197,7 +197,7 @@ summary_data_long$moi <-
 
 # write_xlsx(summary_data,
 #            path = glue(
-#              "C:\\Users/Filippo/Desktop/October exp/Evo",
+#              "C:\\Users/jasmi/Desktop/October exp/Evo",
 #              "/CFUperBead__differentMOIs_day3_MScThesisTesani2025/",
 #              "CFUperBead__differentMOIs_day3_MScThesisTesani2025.xlsx"
 #            ),
