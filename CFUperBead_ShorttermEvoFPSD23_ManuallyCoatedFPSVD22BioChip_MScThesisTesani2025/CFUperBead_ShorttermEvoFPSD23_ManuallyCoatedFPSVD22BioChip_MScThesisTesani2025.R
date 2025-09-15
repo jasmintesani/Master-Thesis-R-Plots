@@ -17,7 +17,7 @@ split_name <- function(string) {
 
 data <-
   read.csv(
-    'C:\\Users/Filippo/Desktop/October exp/Evo/CFUperBead_ShorttermEvoFPSD23_ManuallyCoatedFPSVD22BioChip_MScThesisTesani2025/CFUperBead_ShorttermEvoFPSD23_ManuallyCoatedFPSVD22BioChip_MScThesisTesani2025.csv'
+    'C:\\Users/jasmi/Desktop/October exp/Evo/CFUperBead_ShorttermEvoFPSD23_ManuallyCoatedFPSVD22BioChip_MScThesisTesani2025/CFUperBead_ShorttermEvoFPSD23_ManuallyCoatedFPSVD22BioChip_MScThesisTesani2025.csv'
   )
 
 # day 5 is bad, we delete it
