@@ -17,7 +17,7 @@ split_name <- function(string) {
 
 data <-
   read.csv(
-    'C:\\Users/Filippo/Desktop/October exp/Evo/ODvsCFUpermL_FPS-D23&S6_MScTesani2025/ODvsCFUpermL_FPS-D23&S6_MScTesani2025.csv'
+    'C:\\Users/jasmi/Desktop/October exp/Evo/ODvsCFUpermL_FPS-D23&S6_MScTesani2025/ODvsCFUpermL_FPS-D23&S6_MScTesani2025.csv'
   )
 
 # apply log10 to the values
@@ -97,7 +97,7 @@ color_map <- c(
 
 write_xlsx(summary_data_long,
            path = glue(
-             "C:\\Users/Filippo/Desktop/October exp/Evo/",
+             "C:\\Users/jasmi/Desktop/October exp/Evo/",
              "ODvsCFUpermL_FPS-D23&S6_MScTesani2025",
              "/ODvsCFUpermL_FPS-D23&S6_MScTesani2025.xlsx"
            ),
